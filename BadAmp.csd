@@ -24,10 +24,7 @@ kGain chnget "gain"
 kBump chnget "bump"
 kGash chnget "gash"
 
-;a1 inch 1
-;a2 inch 2
-
-a1 diskin2 "bassClipCR.wav", 1,0,1
+a1 inch 1
 
 ares pareq a1, 120, kBump, 0.5,1
 ares2 pareq a1, 10000, kGash, 0.2, 0
@@ -44,8 +41,6 @@ ar compress aOut, aOut, -2.5, 48, 60, 2, 0.2, .5, .02
 printks2 "Gash value now %f\n", int(kGash)
 
 ;asig	=	ares+ares2 * kGain * (1 - ((kBump+kGash*0.3)^0.02)) ;This scales the output so that by the bump and gash levels so that it doesn't blow up
-
-
 
 outs ar*kGain, ar*kGain
 endin
