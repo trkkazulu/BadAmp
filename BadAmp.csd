@@ -1,8 +1,9 @@
 <Cabbage>
-form caption("Untitled") size(400, 300), colour(58, 110, 182), pluginid("def1")
-rslider bounds(300, -2, 100, 100), channel("gain"), range(0, 1, 0, 1, 0.01), text("Gain"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255)
-rslider bounds(0, 0, 100, 100), channel("bump"), range(0, 11, 0, 1, 1.0), text("Bump"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255)
-rslider bounds(110, 0, 100, 100), channel("gash"), range(0, 100, 0, 1, 5), text("Gash"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255)
+form caption("Bad Amp") size(400, 100), colour(58, 110, 182), pluginid("def1")
+image bounds(0, 0, 400,100), file("gold_gradient.png"),colour("brown"), shape("rounded"), outlinecolour("white"), outlinethickness(4)
+rslider bounds(300, 0, 100, 100), channel("gain"), range(0, 1, 0, 1, 0.01), text("Gain"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255) colour(183, 53, 53, 255)
+rslider bounds(0, 0, 100, 100), channel("bump"), range(0, 11, 0, 1, 1), text("Bump"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255) colour(183, 53, 53, 255)
+rslider bounds(150, 0, 100, 100), channel("gash"), range(0, 100, 0, 1, 5), text("Gash"), trackercolour(0, 255, 0, 255), outlinecolour(0, 0, 0, 50), textcolour(0, 0, 0, 255) colour(183, 53, 53, 255)
 
 </Cabbage>
 <CsoundSynthesizer>
