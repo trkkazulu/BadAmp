@@ -30,7 +30,7 @@ kGash chnget "gash"
 a1 diskin2 "bassClipCR.wav", 1,0,1
 
 ares pareq a1, 120, kBump, 0.5,1
-ares2 pareq a1, 8000, kGash, 0.5, 1
+ares2 pareq a1, 10000, kGash, 0.2, 0
 
 asig = ares
 asig2 = ares2
