@@ -14,7 +14,7 @@ rslider bounds(150, 0, 100, 100), channel("gash"), range(0, 100, 0, 1, 0.01), te
 <CsInstruments>
 
 ;- Region: Initialize the global variables. 
-ksmps = 32
+ksmps = 4
 nchnls = 2
 0dbfs = 1
 
